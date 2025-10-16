@@ -3,7 +3,7 @@ terraform {
     bucket       = "remote-backend-bucket-000000000000"
     key          = "state-locking/terraform.tfstate"
     region       = "us-east-1"
-    use_lockfile = false
+    use_lockfile = true
   }
 
   required_providers {
